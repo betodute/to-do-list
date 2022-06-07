@@ -12,15 +12,14 @@
   <body>
     <div class="container">
       <div class="row border mt-3 list">
-        <h1 class="m-2">To Do List</h1> 
-        <div class="col-12 border-bottom">
-          Item One
-          <button class="btn m-2 btn-outline-danger"> Delete </button>
-        </div>
-        <div class="col-12">
-          Item Two
-          <button class="btn m-2 btn-outline-danger"> Delete </button>
-        </div>
+        <h1 class="m-3 col-12">To Do List</h1> 
+        <form id="newTask" class="ml-3">
+          <div>
+            <label class="form-label">Add New Task</label>
+            <input id="userInput" type="text">
+            <button class="btn ml-2 mb-2">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
   </body>
