@@ -10,21 +10,24 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row border mt-3 list">
         <h1 class="m-3 col-12">To Do List</h1>
-        <div class="header-btns">
-          <button class="btn m-1 btn-outline-info">All Tasks</button>
-          <button class="btn m-1 btn-outline-info">Active Tasks</button>
+        <div class="header-btns container-fluid">
+          <button class="all-tasks btn m-1 btn-outline-info">All Tasks</button>
+          <button class="active-tasks btn m-1 btn-outline-info">Active Tasks</button>
           <button class="completed btn m-1 btn-outline-info">Completed Tasks</button>
         </div> 
-        <form id="newTask" class="ml-3">
+        <form id="newTask" class="ml-3 col-12">
           <div>
             <label class="form-label">Add New Task</label>
             <input id="userInput" type="text">
             <button class="btn ml-2 mb-2">Submit</button>
           </div>
         </form>
+        <div class="list-container">
+
+        </div>
       </div>
     </div>
   </body>

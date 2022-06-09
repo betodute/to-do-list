@@ -1,10 +1,14 @@
 .list {
-  width: 75%;
   border-radius: 15px;
+  margin: 1em;
 }
 
-.btn  {
-  float: right;
+.list-container {
+  margin: 1em;
+}
+
+.list-item {
+  height: 65px;
 }
 
 .check {
@@ -12,8 +16,8 @@
 }
 
 .header-btns {
-  margin: 1em;
+  margin-bottom: 2em;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
